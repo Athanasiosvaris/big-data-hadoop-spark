@@ -3,7 +3,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import col,month,year,count,to_timestamp,row_number,desc
 from pyspark.sql.types import DateType, IntegerType, DoubleType
 
-# Create a Spark session
+# Create a Spark sessio
 spark = SparkSession.builder.appName("Query1").getOrCreate()
 
 # Define the file path of your main dataset CSV file
